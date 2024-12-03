@@ -1,0 +1,167 @@
+/* Définition des couleurs de base */
+couleur_base {
+    color: #FFC300;
+    color: #54DFFE;
+}
+
+/* Styles pour la conteneur de carte */
+.card-container {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+
+/* Styles pour la carte de formulaire */
+.form-card {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.form-card.back{
+    transform: rotateY(180deg);
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    background: linear-gradient(to bottom, #54DFFE, #FFFFFF);
+}
+
+.nav-link:hover {
+    color: #FFC300;
+}
+
+/* Styles pour le conteneur plein largeur */
+.full-width-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+/* Styles pour les images */
+img {
+    border-radius: 20px;
+}
+
+/* Styles pour la première ligne */
+.row1 {
+    /*background: linear-gradient(to left, #54DFFE, #FFC300);*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    margin: 0px;
+}
+
+/* Réinitialisation de la marge du conteneur plein largeur */
+.full-width-container {
+    padding-left: 0; /* Supprimez la marge gauche */
+    padding-right: 0; /* Supprimez la marge droite */
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    height: 100px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar .navbar-brand img {
+    height: 100px;
+}
+
+.navbar-collapse.show + .navbar-brand {
+    position: fixed;
+}
+
+/* Styles pour le pied de page */
+footer {
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, #FFFFFF, #FFC300);
+    margin: 0 !important;
+    padding: 20px 0; /* Espacement intérieur du footer */
+}
+
+/* Styles pour les colonnes */
+footer .col-md-4 {
+    padding: 0 15px; /* Espacement intérieur des colonnes */
+}
+
+/* Styles pour les liens */
+footer ul.list-inline li a {
+    color: #54DFFE; /* Couleur du texte des liens */
+    text-decoration: none; /* Suppression du soulignage des liens */
+}
+
+footer ul.list-inline li a:hover {
+    text-decoration: underline;
+}
+
+footer .text-center p {
+    color: #6c757d; /* Couleur du texte */
+    margin-bottom: 0; /* Suppression de la marge inférieure */
+}
+
+/* Styles pour la liste de droite */
+footer .text-md-end ul.list-unstyled li {
+    margin-bottom: 5px; /* Espacement entre les éléments de la liste */
+}
+
+/* Styles pour les liens de la liste de droite */
+footer .text-md-end ul.list-unstyled li a {
+    color: #6c757d; /* Couleur du texte */
+}
+
+footer .text-md-end ul.list-unstyled li a:hover {
+    text-decoration: underline; /* Soulignage du lien au survol */
+}
+
+header {
+    font-size: 20px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #54DFFE;
+    border-color: #54DFFE;
+}
+
+button[type="submit"]:hover {
+    width: 100%;
+    background-color: #FFC300;
+    border-color: #FFC300;
+}
+
+a.btn-primary{
+    width: 100%;
+    background-color: #54DFFE;
+    border-color: #54DFFE;
+}
+
+a.btn-primary:hover{
+    width: 100%;
+    background-color: #FFC300;
+    border-color: #FFC300;
+}
+
+
+.navbar-collapse.show {
+    background: linear-gradient(to bottom, #B3F1FF, #FFFFFF);
+}
+
+.navbar {
+    z-index: 1;
+}

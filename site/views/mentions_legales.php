@@ -11,8 +11,8 @@
 <body>
     <div class="container mt-5">
         <h1 class="text-center mb-4">Mentions Légales</h1>
-        <p><strong>Propriétaire du site :</strong> Carboila Dias Mathys, Ledur Valentin, Raphael Boucher – 123 avenue Albert Thomas – 87060 LIMOGES CEDEX</p>
-        <p><strong>Nous contacter :</strong> mathys.carboila@etu.unilim.fr, valentin.ledur@etu.unilim.fr, raphael.boucher@etu.unilim.fr</p>
+        <p><strong>Propriétaire du site :</strong>Ledur Valentin – 123 avenue Albert Thomas – 87060 LIMOGES CEDEX</p>
+        <p><strong>Nous contacter :</strong> valentin.ledur@etu.unilim.fr</p>
         <p><strong>Responsable de la publication :</strong> Carboila Dias Mathys, Ledur Valentin, Raphael Boucher.</p>
         <p><strong>Hébergement :</strong> Localhost</p>
         <h2 class="mt-5">Propriété intellectuelle – Droits d’auteurs</h2>

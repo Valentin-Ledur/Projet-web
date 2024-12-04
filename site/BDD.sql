@@ -69,8 +69,8 @@ CREATE TABLE `review` (
 --
 
 INSERT INTO `review` (`identifiant`, `nom_utilisateur`, `commentaire`, `date`) VALUES
-(1, 'ArkSena', 'HELLO LE MONDE', '2024-04-06'),
-(2, 'ArkSena222', 'tessfds', '2024-04-07'),
+(1, 'test', 'HELLO LE MONDE', '2024-04-06'),
+(2, 'test222', 'tessfds', '2024-04-07'),
 (3, 'Utilisateur123', 'Très bon cours, j_ai beaucoup appris !', '2024-04-07'),
 (4, 'JohnDoe', 'Le professeur était très compétent.', '2024-04-07'),
 (4, 'JaneDoe', 'Je recommande ce cours à tous mes amis.', '2024-04-07'),
@@ -98,11 +98,11 @@ CREATE TABLE `utilisateur` (
 --
 
 INSERT INTO `utilisateur` (`identifiant`, `nom_utilisateur`, `nom`, `prenom`, `email`, `mot_de_passe`) VALUES
-(1, 'ArkSena', 'Dias', 'Mathys', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
-(2, 'ArkSena222', 'Dias', 'Mathys', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
-(3, 'ArkSena35434', 'Dias', 'Mathys', 'mathysdias.services@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
-(4, 'ArkSena24523453', 'Dias', 'Mathys', 'mathysdias.services@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
-(5, 'gsdfgsfdhsfdgh', 'Dias', 'Mathys', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b');
+(1, 'test', 'test', 'test', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
+(2, 'test222', 'test', 'test', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
+(3, 'test35434', 'test', 'test', 'testtest.services@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
+(4, 'test24523453', 'test', 'test', 'testtest.services@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
+(5, 'gsdfgsfdhsfdgh', 'test', 'test', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b');
 
 --
 -- Index pour les tables déchargées

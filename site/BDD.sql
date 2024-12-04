@@ -98,11 +98,7 @@ CREATE TABLE `utilisateur` (
 --
 
 INSERT INTO `utilisateur` (`identifiant`, `nom_utilisateur`, `nom`, `prenom`, `email`, `mot_de_passe`) VALUES
-(1, 'test', 'test', 'test', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
-(2, 'test222', 'test', 'test', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
-(3, 'test35434', 'test', 'test', 'testtest.services@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
-(4, 'test24523453', 'test', 'test', 'testtest.services@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b'),
-(5, 'gsdfgsfdhsfdgh', 'test', 'test', 'mcd087@gmail.com', 'bd24e012bda231dc8efd1918aaef3c178e0684f939fdb1fbb18d29d7fe298e1b');
+(1, 'test', 'test', 'test', 'test@mail.com', 'ds534fv123d4vb1x3v31dx2wv4f1xf5xv4f3x24fw'),
 
 --
 -- Index pour les tables déchargées
